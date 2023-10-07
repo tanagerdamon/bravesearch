@@ -1,0 +1,17 @@
+! name: Books
+! description: Limits search to popular sites for books
+! public: true
+! author: Niraj Agarwal
+
+$discard
+$discard,site=amazon.com
+$discard,site=books.google.com
+$discard,site=alibris.com
+$discard,site=barnesandnoble.com
+$boost,site=gutenberg.org
+$boost,site=powells.com
+$boost,site=bookshop.org
+$boost,site=ebooks.com
+$discard,site=goodreads.com
+$discard,site=bookbub.com
+$discard,site=abebooks.com
