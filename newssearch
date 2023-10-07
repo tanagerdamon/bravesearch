@@ -1,0 +1,20 @@
+! name: News from Subscribed Sources
+! description: Limits search to news sites I subscribe to
+! public: true
+! author: Damon Copeland
+
+$discard
+
+$discard,site=msn.com
+$boost,site=theguardian.com
+$boost,site=theatlantic.com
+$boost,site=npr.org
+$boost,site=newrepublic.com
+$boost,site=grist.org
+$boost,site=apnews.com
+$boost,site=theintercept.com
+$boost,site=politico.com
+$boost,site=thenation.com
+$boost,site=motherjones.com
+$boost,site=abcnews.go.com
+$boost,site=news.bbc.co.uk
