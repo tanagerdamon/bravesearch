@@ -11,6 +11,7 @@ $discard,site=barnesandnoble.com
 $boost,site=bookshop.org
 $boost,site=ebooks.com
 $boost,site=shop.duckriverbooks.com
+$boost,site=biblio.com
 $discard,site=uk.bookshop.org
 $discard,site=goodreads.com
 $discard,site=bookbub.com
